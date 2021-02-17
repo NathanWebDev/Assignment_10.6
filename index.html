@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Assignment 10.6</title>
+</head>
+    <body>
+        <div class="container">
+        <header>
+            <h1>Username Project Search</h1>
+        </header>
+        <form id="js-form">
+            <label for="js-search-term">Username</label>
+            <input type="text" name="js-search-term" id="js-search-term" required>
+            <input type="submit">
+        </form>
+        <p id="js-error-message" class="error-message"></p>
+        <section id="results" class="hidden">
+            <h2>Username Project Search Results</h2>
+            <ul id="results-list">
+            </ul>
+        </section>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
